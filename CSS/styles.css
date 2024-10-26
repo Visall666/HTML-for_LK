@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+/* ---------------> header section */
+.header{
+    width: 100%;
+    background-color: blue;
+}
+.container{
+    margin: auto;
+    background-color: aquamarine;
+    width: 80%;
+    padding: 10px 0 10 0;
+    align-items: center;
+    justify-items: space-between;
+    display:flex;
+}
+.container #logo{
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    color: rgb(76, 134, 176);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu{
+    background-color: rgb(42, 159, 165);
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: antiquewhite;
+}
+.menu li #menu-active{
+    color: black;
+    text-decoration: underline;
+}
+.fas {
+    margin-left: 25px;
+
+}
+
+.fa-search {
+    color: gray;
+}
